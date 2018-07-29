@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+@import "~angular-notifier/styles/themes/theme-material.css";
+
+.notifier__container-list{
+    list-style: none;
+}
+
+.notifier__notification--material{
+    padding: 20px 54px;
+    position: absolute;
+    right: 24px;
+    background-color: #3fbc6c;
+    color: white;
+    height: 72px;
+    top: 72px;
+}
